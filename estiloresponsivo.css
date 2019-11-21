@@ -1,0 +1,135 @@
+/*Estilo Responsivo*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+
+/*Corpo do site*/
+body{
+    background-color: rgba(104, 80, 104, 0.288);
+}
+
+/*Parágrafos e Títulos*/
+p{
+    text-align:justify;
+    margin-top: 20px;
+    padding-right: 10px;
+    line-height: 2em;
+    color: #2b2929;
+    text-indent: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+       
+h1,h2, h3, h4{
+    color: #62426d;
+    font-family: 'Jomolhari', serif;
+    text-transform:uppercase;
+}
+
+/*Depoimento*/
+#depoimento{
+    background-color: rgba(240, 224, 4, 0.253);
+    width: 100%;
+    height: 35%;
+    position: relative;
+    border-radius:3%;
+    box-shadow: -1px 3px 40px rgb(228, 175, 1);
+}
+
+/*Imagens*/
+.imagens{
+    width: 220px;
+    height: 170px;
+    float: left;
+    padding: 2%;
+    border-radius: 19%;
+    box-shadow: -11px 13px 5px black;
+}
+
+.imagens:hover{
+    width: 220px;
+    height: 170px;
+    float: left;
+    padding: 2%;
+    border-radius: 19%;
+    box-shadow: -11px 13px 5px rgb(228, 175, 1);
+}
+
+.imagensR:hover{
+    width: 220px;
+    height: 170px;
+    float: right;
+    padding: 2%;
+    border-radius: 19%;
+    box-shadow: 11px 13px 5px rgb(228, 175, 1);
+}
+
+.imagensR{
+    width: 220px;
+    height: 170px;
+    float: right;
+    padding: 2%;
+    border-radius: 19%;
+    box-shadow: 11px 13px 5px black;
+}
+
+/*Links das ONGs*/
+#ONGs{
+    padding-right: 10px;
+    line-height: 2em;
+    color: #D45202;
+    text-indent: 3em;
+    font-family: Leelawadee UI Semilight;
+    text-transform: uppercase;
+    text-align:center;
+}
+    
+#ONGs a:hover{
+    color: rgb(73, 22, 73);
+}
+
+/*Formulário*/
+input[type="text"]{
+    padding-left:9px;
+    border-style:solid rgba(192,192,192.2);
+    text-transform: uppercase;
+}
+
+#formulario{
+    width: 100%;
+    margin-top: 7%;
+    background-color: #e8b63963;
+    position: absolute;
+    border-radius: 5%;
+}
+
+img, video, div{
+    max-width: 100%;
+    display: inline-block;
+}
+
+#btn_voltar_ao_topo{
+	text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 9%;
+    background-color: rgba(255, 0, 0, 0.486);
+    color: white;
+    padding:1.5%;
+	border-bottom: outset;
+}
+
+#btn_voltar_ao_topo:hover{
+    background-color: rgb(212, 165, 108);
+    text-decoration: underline;
+	border-bottom: outset;
+}
